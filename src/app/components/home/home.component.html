@@ -1,0 +1,28 @@
+<main class="home-header-banner d-flex row">
+    <div class="banner-content">
+        <div class="content-up d-flex align-content-center row">
+            <div class="title1">
+                MEDICAL FOUNDATION
+            </div>
+            <div class="title2">
+                <b>
+                  COMPREHENSIVE HEALTH CARE
+                </b>
+            </div>
+            <div class="search d-flex justify-content-center align-items-center mt-5">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Search clinics, hospitals, doctors..." />
+            </div>
+        </div>
+        <div class="content-down d-flex justify-content-center">
+            <ul class="options row d-flex justify-content-center container">
+                <li class="row d-flex justify-content-center col-lg col-md-4 col-4" *ngFor="let item of homeBanner">
+                    <i class="{{item.icon}}"></i>
+                    <span>
+                      {{item.option}}
+                    </span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</main>

@@ -1,0 +1,23 @@
+<header class="home-header-container container">
+    <div class="home-header-content row d-flex justify-content-center">
+        <div class="left-content d-flex justify-content-start align-items-center col-6 col-md-6 col-lg-3">
+            <i class="fa-solid fa-bars"></i>
+            <a href="/">
+                <img src="../../../assets/images/logo.png" alt="" />
+            </a>
+        </div>
+        <div class="center-content justify-content-between align-items-center d-none d-md-none d-lg-flex col-lg-6">
+            <div class="child-content" *ngFor="let item of headerContent">
+                <div>
+                    <b> {{item.title}} </b>
+                </div>
+                <div class="sub-title">{{item.subTitle}}</div>
+            </div>
+        </div>
+        <div class="right-content d-flex justify-content-end align-items-center col-6 col-md-6 col-lg-3">
+            <div class="support">
+                <i class="fa-solid fa-circle-question"></i> <a href="">&ensp;Hỗ trợ</a>
+            </div>
+        </div>
+    </div>
+</header>
