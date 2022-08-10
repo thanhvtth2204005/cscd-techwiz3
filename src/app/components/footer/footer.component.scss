@@ -1,22 +1,23 @@
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css');
-@import url('https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap-grid.min.css');
 * {
     margin: 0;
     padding: 0;
 }
+
 .footer-basic {
     background: #efefef;
     padding: 20px;
     font-size: 15px;
-
 }
+
 .logo {
     width: auto;
     height: 70px;
 }
+
 .first {
     line-height: 2;
 }
+
 .center {
     line-height: 2;
     font-size: 20px;
@@ -26,11 +27,13 @@
         color: #3498db;
     }
 }
+
 .last {
     padding-left: 0;
     line-height: 2;
     font-size: 20px;
 }
+
 .social-network {
     padding: 10px 0 0 50px;
     a {
@@ -40,6 +43,7 @@
         }
     }
 }
+
 .company {
     text-align: center;
     padding-top: 20px;
