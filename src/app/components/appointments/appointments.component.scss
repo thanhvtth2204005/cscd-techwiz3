@@ -1,0 +1,33 @@
+.appointments-container {
+    .content-up {
+        .row {
+            img {
+                border-radius: 50%;
+                width: 170px;
+                height: 150px;
+                object-fit: cover;
+            }
+        }
+        select {
+            border: none;
+            border-bottom: 1px solid black;
+            outline: none;
+            color: #337ab7;
+            font-weight: 500;
+            option {
+                color: #337ab7;
+                font-weight: 500;
+            }
+        }
+        .examination {
+            .examination-time {
+                .choosing-time {
+                    .grid-time {
+                        width: fit-content;
+                        padding: 0;
+                    }
+                }
+            }
+        }
+    }
+}
