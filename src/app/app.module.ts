@@ -31,18 +31,15 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     HealthMeasuresComponent,
     FeedbackComponent,
     ContactComponent,
-<<<<<<< HEAD
     FooterComponent
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    FormsModule,
-    ReactiveFormsModule
-=======
-    FooterComponent,
->>>>>>> 05e2cc7fbb64102add40403d5de2ae01ff64dafd
-  ],
+  // imports: [
+  //   BrowserModule,
+  //   AppRoutingModule,
+  //   FormsModule,
+  //   ReactiveFormsModule,
+  //   FooterComponent
+  // ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
