@@ -1,11 +1,10 @@
-* {
-    margin: 0;
-    padding: 0;
+footer {
+    overflow-x: hidden !important;
+    width: 100% !important;
 }
 
 .footer-basic {
     background: #efefef;
-    padding: 20px;
     font-size: 15px;
 }
 
@@ -44,9 +43,11 @@
     }
 }
 
-.company {
+.copyright {
     text-align: center;
-    padding-top: 20px;
+    padding: 20px 0;
     font-size: 20px;
     opacity: 0.5;
+    overflow-x: hidden !important;
+    width: 100% !important;
 }
