@@ -1,3 +1,5 @@
+import { AppointmentsComponent } from './components/appointments/appointments.component';
+import { SelfHealthTipsComponent } from './components/self-health-tips/self-health-tips.component';
 import { LoginComponent } from './components/login/login.component';
 import { HomeComponent } from './components/home/home.component';
 import { NgModule } from '@angular/core';
@@ -10,10 +12,7 @@ const routes: Routes = [
   },
   {
     path: 'login', component: LoginComponent
-  },
-  {
-    path: 'contact', component: ContactComponent
-  },
+  }
 ];
 
 @NgModule({

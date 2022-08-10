@@ -31,6 +31,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     HealthMeasuresComponent,
     FeedbackComponent,
     ContactComponent,
+<<<<<<< HEAD
     FooterComponent
   ],
   imports: [
@@ -38,8 +39,12 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule
+=======
+    FooterComponent,
+>>>>>>> 05e2cc7fbb64102add40403d5de2ae01ff64dafd
   ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
